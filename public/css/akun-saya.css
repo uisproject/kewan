@@ -1,0 +1,77 @@
+.header {
+  height: 100px;
+  background-image: url("../image/bg.jpg");
+  background-position: center 875px;
+  background-size: 1120px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header * {
+    margin: 0 10px;
+    font-size: 24px; }
+  .header .home__wrapper img {
+    width: 48px; }
+  .header .right__wrapper {
+    display: flex; }
+    .header .right__wrapper .sound__wrapper button {
+      border: 1px solid #ffde59;
+      background-color: #fff; }
+
+.full-menu__wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffde59;
+  text-align: center;
+  font-size: 36px;
+  transform: translateY(-100vh);
+  transition: all 2s;
+  z-index: 50; }
+  .full-menu__wrapper ul {
+    padding: 0 !important;
+    margin: 0 !important; }
+  .full-menu__wrapper .menu--item {
+    height: 100px;
+    display: grid;
+    place-items: center;
+    cursor: pointer; }
+  .full-menu__wrapper .menu--item:hover {
+    background-color: #ffea8d; }
+  .full-menu__wrapper ul li,
+  .full-menu__wrapper li a {
+    list-style: none;
+    text-decoration: none;
+    color: #000; }
+
+.content {
+  min-height: calc(100vh - (100px + 100px));
+  background-image: url("../image/Background.png");
+  background-repeat: repeat;
+  background-position: center center; }
+
+@font-face {
+  font-family: KidsCorner;
+  src: url("../font/KidsCorner-Regular-1.otf"); }
+
+.content__wrapper {
+  font-family: KidsCorner;
+  background-color: #ffea8d; }
+
+.footer {
+  height: 100px;
+  position: absolute;
+  bottom: 0; }
+  .footer .logo-kewan__wrapper {
+    width: 150px; }
+  .footer .logo-kewan {
+    width: 100%; }
+
+.content {
+  max-width: 800px;
+  margin: auto;
+  font-size: 32px; }
+  .content table {
+    width: 100%; }

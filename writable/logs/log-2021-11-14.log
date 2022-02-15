@@ -1,0 +1,332 @@
+CRITICAL - 2021-11-14 02:41:38 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#5 {main}
+CRITICAL - 2021-11-14 02:41:53 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#5 {main}
+ERROR - 2021-11-14 02:42:34 --> Unknown column 'nama_binatang' in 'field list'
+CRITICAL - 2021-11-14 02:42:34 --> Unknown column 'nama_binatang' in 'field list'
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `nama_bi...')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nama_bi...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nama_bi...')
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `nama_bi...', Array, false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#10 {main}
+ERROR - 2021-11-14 02:44:15 --> Unknown column 'nama_binatang' in 'field list'
+CRITICAL - 2021-11-14 02:44:15 --> Unknown column 'nama_binatang' in 'field list'
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `nama_bi...')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nama_bi...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nama_bi...')
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `nama_bi...', Array, false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#10 {main}
+ERROR - 2021-11-14 02:44:17 --> Unknown column 'nama_binatang' in 'field list'
+CRITICAL - 2021-11-14 02:44:17 --> Unknown column 'nama_binatang' in 'field list'
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `nama_bi...')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nama_bi...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nama_bi...')
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `nama_bi...', Array, false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#10 {main}
+ERROR - 2021-11-14 02:44:18 --> Unknown column 'nama_binatang' in 'field list'
+CRITICAL - 2021-11-14 02:44:18 --> Unknown column 'nama_binatang' in 'field list'
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `nama_bi...')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nama_bi...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nama_bi...')
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `nama_bi...', Array, false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#10 {main}
+CRITICAL - 2021-11-14 03:26:38 --> Call to undefined function App\Controllers\randomIdx()
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#5 {main}
+CRITICAL - 2021-11-14 03:27:02 --> Call to undefined function App\Controllers\randomIdx()
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#5 {main}
+CRITICAL - 2021-11-14 03:27:17 --> Call to undefined function App\Controllers\randomIdx()
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#5 {main}
+CRITICAL - 2021-11-14 03:28:53 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 03:55:45 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 03:57:24 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 04:04:27 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 04:05:27 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 04:05:28 --> Undefined variable: numberSave
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Web_Developm...', 34, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-11-14 04:08:03 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 04:11:27 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 04:14:31 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 04:19:32 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 04:35:40 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 04:36:40 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 04:56:50 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 04:57:50 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 04:58:50 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 04:59:50 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 07:44:36 --> syntax error, unexpected '$counter' (T_VARIABLE)
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('Quiz/quizDetail')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('Quiz/quizDetail')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-11-14 08:09:24 --> Trying to access array offset on value of type bool
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Web_Developm...', 48, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-11-14 09:22:16 --> Undefined index: jawaban
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Web_Developm...', 34, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-11-14 09:22:55 --> Undefined index: question_data
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Web_Developm...', 33, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-11-14 09:23:00 --> Undefined index: question_data
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Web_Developm...', 33, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-11-14 09:23:59 --> Undefined index: question_data
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Web_Developm...', 33, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-11-14 09:24:36 --> Undefined index: question_data
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Web_Developm...', 34, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-11-14 09:25:06 --> Undefined index: question_data
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Web_Developm...', 34, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-11-14 09:35:00 --> Trying to access array offset on value of type int
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Web_Developm...', 52, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-11-14 09:45:46 --> array_search() expects parameter 2 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_search() ...', 'D:\\Web_Developm...', 41, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(41): array_search(0, 'Singa')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(55): App\Controllers\generateAnswerList('singa', Array)
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#8 {main}
+CRITICAL - 2021-11-14 10:18:02 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 10:20:09 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 10:21:09 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 10:24:20 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 10:25:21 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 10:40:45 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 10:41:45 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-14 11:29:03 --> Trying to access array offset on value of type bool
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Web_Developm...', 57, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(65): App\Controllers\generateAnswerList('singa', Array)
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#7 {main}
+CRITICAL - 2021-11-14 12:33:00 --> Undefined offset: 3
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Web_Developm...', 45, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(66): App\Controllers\generateAnswerList('singa', Array)
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#7 {main}
+CRITICAL - 2021-11-14 12:33:42 --> Undefined offset: 2
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Web_Developm...', 47, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(66): App\Controllers\generateAnswerList('singa', Array)
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#7 {main}
+CRITICAL - 2021-11-14 12:37:22 --> Undefined variable: shuffleQuestionList
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Web_Developm...', 66, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-11-14 12:43:06 --> Undefined offset: 1
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Web_Developm...', 48, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(67): App\Controllers\generateAnswerList('singa', Array)
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#7 {main}
+CRITICAL - 2021-11-14 12:43:24 --> Undefined offset: 0
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Web_Developm...', 48, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(67): App\Controllers\generateAnswerList('kuda', Array)
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#7 {main}
+CRITICAL - 2021-11-14 12:43:26 --> Undefined offset: 1
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Web_Developm...', 48, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(67): App\Controllers\generateAnswerList('rusa', Array)
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#7 {main}
+CRITICAL - 2021-11-14 12:43:27 --> Undefined offset: 0
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Web_Developm...', 48, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(67): App\Controllers\generateAnswerList('kuda', Array)
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#7 {main}
+CRITICAL - 2021-11-14 13:37:46 --> Undefined offset: 0
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Web_Developm...', 58, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(68): App\Controllers\generateAnswerList('kuda', Array)
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#7 {main}
+CRITICAL - 2021-11-14 13:37:51 --> Undefined offset: 1
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Web_Developm...', 58, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Quiz.php(68): App\Controllers\generateAnswerList('gajah', Array)
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Quiz->quizDetail()
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#7 {main}

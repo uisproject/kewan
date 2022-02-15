@@ -1,0 +1,32 @@
+CRITICAL - 2021-10-31 02:30:51 --> Undefined variable: result
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Koleksi.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Web_Developm...', 37, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Koleksi->getFunFact()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-10-31 02:31:23 --> Array to string conversion
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Koleksi.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Web_Developm...', 39, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Koleksi->getFunFact()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-10-31 03:01:55 --> Array to string conversion
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Koleksi.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Web_Developm...', 29, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Koleksi->koleksiDetil('5')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-10-31 03:04:29 --> Array to string conversion
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Koleksi.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Web_Developm...', 29, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Koleksi->koleksiDetil('5')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}

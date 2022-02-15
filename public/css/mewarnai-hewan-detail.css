@@ -1,0 +1,196 @@
+.header {
+  height: 100px;
+  background-image: url("../image/bg.jpg");
+  background-position: center 875px;
+  background-size: 1120px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header * {
+    margin: 0 10px;
+    font-size: 24px; }
+  .header .home__wrapper img {
+    width: 48px; }
+  .header .right__wrapper {
+    display: flex; }
+    .header .right__wrapper .sound__wrapper button {
+      border: 1px solid #ffde59;
+      background-color: #fff; }
+
+.full-menu__wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffde59;
+  text-align: center;
+  font-size: 36px;
+  transform: translateY(-100vh);
+  transition: all 2s;
+  z-index: 50; }
+  .full-menu__wrapper ul {
+    padding: 0 !important;
+    margin: 0 !important; }
+  .full-menu__wrapper .menu--item {
+    height: 100px;
+    display: grid;
+    place-items: center;
+    cursor: pointer; }
+  .full-menu__wrapper .menu--item:hover {
+    background-color: #ffea8d; }
+  .full-menu__wrapper ul li,
+  .full-menu__wrapper li a {
+    list-style: none;
+    text-decoration: none;
+    color: #000; }
+
+.content {
+  min-height: calc(100vh - (100px + 100px));
+  background-image: url("../image/Background.png");
+  background-repeat: repeat;
+  background-position: center center; }
+
+@font-face {
+  font-family: KidsCorner;
+  src: url("../font/KidsCorner-Regular-1.otf"); }
+
+.content__wrapper {
+  font-family: KidsCorner;
+  background-color: #ffea8d; }
+
+.footer {
+  height: 100px;
+  position: absolute;
+  bottom: 0; }
+  .footer .logo-kewan__wrapper {
+    width: 150px; }
+  .footer .logo-kewan {
+    width: 100%; }
+
+.super__container {
+  position: relative; }
+  .super__container .modal-validation {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    display: none; }
+    .super__container .modal-validation .arrow-back__wrapper {
+      position: absolute;
+      top: 50px;
+      left: 30px; }
+    .super__container .modal-validation__wrapper {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .super__container .modal-validation__wrapper .ref-image__wrapper {
+        width: 300px;
+        height: 300px;
+        background-color: #fff;
+        padding: 20px;
+        max-height: 300px; }
+        .super__container .modal-validation__wrapper .ref-image__wrapper img {
+          width: 100%;
+          max-height: 250px; }
+      .super__container .modal-validation__wrapper .storedImage__wrapper {
+        width: 300px;
+        height: 300px;
+        background-color: #fff;
+        padding: 20px;
+        display: flex;
+        justify-content: center; }
+        .super__container .modal-validation__wrapper .storedImage__wrapper svg {
+          max-height: 250px; }
+    .super__container .modal-validation .btn-completed {
+      position: absolute;
+      bottom: 50px;
+      background-color: #e48645;
+      color: #fff;
+      font-size: 32px;
+      border-radius: 15px; }
+    .super__container .modal-validation .score__wrapper {
+      position: absolute;
+      bottom: 250px;
+      right: 220px;
+      font-size: 24px;
+      background-color: #fff; }
+    .super__container .modal-validation .score {
+      font-weight: bold;
+      color: #e48645; }
+  .super__container .content__wrapper .content {
+    width: 100%;
+    background-color: transparent;
+    padding-top: 25px; }
+    @media screen and (max-width: 900px) {
+      .super__container .content__wrapper .content {
+        display: flex;
+        flex-direction: column;
+        justify-items: center; } }
+    .super__container .content__wrapper .content .drawing {
+      width: 600px;
+      height: 600px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      flex-direction: column; }
+      @media (max-width: 768px) {
+        .super__container .content__wrapper .content .drawing {
+          width: 300px; } }
+      .super__container .content__wrapper .content .drawing .btn-validasi__wrapper {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        padding: 40px 0;
+        z-index: 20; }
+        .super__container .content__wrapper .content .drawing .btn-validasi__wrapper .btn-validasi {
+          background-color: #e48645;
+          color: #fff;
+          font-size: 32px;
+          border-radius: 15px; }
+      .super__container .content__wrapper .content .drawing svg {
+        max-height: 450px; }
+    .super__container .content__wrapper .content .color-pallete {
+      position: absolute;
+      right: 40px;
+      top: 50%;
+      transform: translateY(-50%); }
+      @media screen and (max-width: 900px) {
+        .super__container .content__wrapper .content .color-pallete {
+          position: inherit;
+          padding-top: 200px; } }
+      @media (max-width: 768px) {
+        .super__container .content__wrapper .content .color-pallete {
+          padding-top: 0 !important; } }
+      .super__container .content__wrapper .content .color-pallete .color-circle__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        width: 100px; }
+        @media screen and (max-width: 900px) {
+          .super__container .content__wrapper .content .color-pallete .color-circle__wrapper {
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; } }
+        .super__container .content__wrapper .content .color-pallete .color-circle__wrapper .clear {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        .super__container .content__wrapper .content .color-pallete .color-circle__wrapper .color-circle {
+          width: 50px;
+          height: 50px;
+          border: 1px solid #000;
+          cursor: pointer;
+          border-radius: 100%; }
+        .super__container .content__wrapper .content .color-pallete .color-circle__wrapper #color-input {
+          width: 50px;
+          height: 50px;
+          cursor: pointer; }
+  .super__container .content__wrapper .footer .logo-kewan__wrapper {
+    width: 150px; }
+  .super__container .content__wrapper .footer .logo-kewan {
+    width: 100%; }

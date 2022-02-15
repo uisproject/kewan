@@ -1,0 +1,14 @@
+CRITICAL - 2021-10-16 09:06:25 --> Object of class App\Models\TebakHewanModel could not be converted to string
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\TebakHewan->getData()
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TebakHewan))
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#5 {main}
+CRITICAL - 2021-10-16 09:10:42 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\TebakHewan->getData()
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TebakHewan))
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#5 {main}

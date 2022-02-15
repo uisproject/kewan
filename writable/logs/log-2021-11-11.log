@@ -1,0 +1,295 @@
+CRITICAL - 2021-11-11 04:03:22 -->  route cannot be found while reverse-routing.
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Common.php(835): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Pengguna.php(43): redirect('http://localhos...')
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pengguna->insertNewAcc()
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#8 {main}
+CRITICAL - 2021-11-11 04:03:28 -->  route cannot be found while reverse-routing.
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Common.php(835): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Pengguna.php(43): redirect('http://localhos...')
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pengguna->insertNewAcc()
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#8 {main}
+CRITICAL - 2021-11-11 04:03:32 -->  route cannot be found while reverse-routing.
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Common.php(835): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Pengguna.php(43): redirect('http://localhos...')
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pengguna->insertNewAcc()
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#8 {main}
+CRITICAL - 2021-11-11 04:40:39 --> syntax error, unexpected ';', expecting ']'
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Web_Developm...')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-11 04:50:38 --> Trying to access array offset on value of type null
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Views\homepage.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Web_Developm...', 23, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\Web_Developm...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('homepage', Array, true)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Home.php(16): view('homepage', Array)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#10 {main}
+CRITICAL - 2021-11-11 04:50:46 --> Trying to access array offset on value of type null
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Views\homepage.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Web_Developm...', 23, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\Web_Developm...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('homepage', Array, true)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Home.php(16): view('homepage', Array)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#10 {main}
+CRITICAL - 2021-11-11 06:23:08 --> syntax error, unexpected end of file
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('homepage', Array, true)
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Home.php(24): view('homepage', Array)
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#8 {main}
+CRITICAL - 2021-11-11 06:30:07 --> syntax error, unexpected '$query' (T_VARIABLE), expecting ';' or ','
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Web_Developm...')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-11-11 06:31:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'email' at line 3
+CRITICAL - 2021-11-11 06:31:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'email' at line 3
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `penggun...')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penggun...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penggun...')
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `penggun...', Array, false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Home.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 06:31:36 --> Undefined variable: query
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Web_Developm...', 26, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-11-11 06:32:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'email' at line 3
+CRITICAL - 2021-11-11 06:32:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'email' at line 3
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `penggun...')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penggun...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penggun...')
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `penggun...', Array, false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Home.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 06:38:55 --> Undefined offset: 0
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Web_Developm...', 24, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-11 06:39:15 --> Undefined offset: 0
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Web_Developm...', 24, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-11 08:44:05 --> Undefined variable: query
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Web_Developm...', 30, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-11 08:44:27 --> Call to a member function getResultArray() on string
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-11 08:44:58 --> Call to a member function getResultArray() on string
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-11 10:18:30 --> Undefined offset: 0
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Pengguna.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Web_Developm...', 61, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pengguna->login()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-11-11 10:23:09 --> Undefined offset: 0
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Pengguna.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Web_Developm...', 61, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pengguna->login()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-11-11 10:23:12 --> Undefined offset: 0
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Pengguna.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Web_Developm...', 61, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pengguna->login()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-11-11 10:40:26 --> Undefined index: password
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Pengguna.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Web_Developm...', 65, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pengguna->login()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-11-11 10:52:08 --> Argument 2 passed to view() must be of the type array, string given, called in D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Home.php on line 41
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Home.php(41): view('homepage', '')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-11 10:52:48 --> Undefined variable: msg
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Views\homepage.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Web_Developm...', 23, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\Web_Developm...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('homepage', Array, true)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Home.php(41): view('homepage', Array)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 11:03:10 --> Undefined index: login-email
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Pengguna.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Web_Developm...', 55, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pengguna->login()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+ERROR - 2021-11-11 11:19:29 --> Table 'kewan2.koleksi' doesn't exist
+CRITICAL - 2021-11-11 11:19:29 --> Table 'kewan2.koleksi' doesn't exist
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Koleksi.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Koleksi->koleksiDetil('1')
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#10 {main}
+CRITICAL - 2021-11-11 11:52:58 --> syntax error, unexpected '}', expecting ';' or ','
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('Koleksi/koleksi...')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('Koleksi/koleksi...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-11-11 11:56:54 --> Too few arguments to function App\Controllers\Koleksi::koleksiDetailTable(), 0 passed in D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Koleksi->koleksiDetailTable()
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#5 {main}
+CRITICAL - 2021-11-11 11:57:13 --> Undefined index: tempat_tinggal
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Views\koleksi-detail.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Web_Developm...', 60, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\Web_Developm...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('koleksi-detail', Array, true)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Koleksi.php(29): view('koleksi-detail', Array)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Koleksi->koleksiDetil('1')
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#10 {main}
+CRITICAL - 2021-11-11 11:58:03 --> Undefined index: binatang_id
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Views\koleksi-detail.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Web_Developm...', 95, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\Web_Developm...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('koleksi-detail', Array, true)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Koleksi.php(29): view('koleksi-detail', Array)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Koleksi->koleksiDetil('1')
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#10 {main}
+CRITICAL - 2021-11-11 11:58:17 --> Undefined index: gambar_array
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Views\koleksi-detail.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Web_Developm...', 97, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\Web_Developm...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('koleksi-detail', Array, true)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Koleksi.php(29): view('koleksi-detail', Array)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Koleksi->koleksiDetil('1')
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#10 {main}
+CRITICAL - 2021-11-11 12:00:52 --> Undefined index: gambar_array
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Views\koleksi-detail.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Web_Developm...', 122, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\Web_Developm...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('koleksi-detail', Array, true)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Koleksi.php(29): view('koleksi-detail', Array)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Koleksi->koleksiDetil('1')
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#10 {main}
+ERROR - 2021-11-11 13:25:10 --> Unknown column 'tanggal_tebak_gambar' in 'field list'
+CRITICAL - 2021-11-11 13:25:10 --> Unknown column 'tanggal_tebak_gambar' in 'field list'
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `ni...')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ni...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ni...')
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ni...', Array, false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\TebakHewan.php(58): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\TebakHewan->insertNilai()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TebakHewan))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#10 {main}

@@ -1,0 +1,11 @@
+.score-development {
+  min-height: 100vh; }
+  .score-development .title {
+    height: 100px; }
+
+.header__wrapper {
+  height: 75px; }
+  .header__wrapper .log-out__wrapper {
+    position: absolute;
+    top: 50px;
+    right: 25px; }

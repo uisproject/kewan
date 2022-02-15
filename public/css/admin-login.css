@@ -1,0 +1,11 @@
+.content__wrapper {
+  background-color: #ffea8d; }
+  .content__wrapper .container {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    min-height: 100vh; }
+    .content__wrapper .container .login-table {
+      border-collapse: collapse; }
+      .content__wrapper .container .login-table td {
+        padding-bottom: 20px; }

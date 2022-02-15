@@ -1,0 +1,130 @@
+.header {
+  height: 100px;
+  background-image: url("../image/bg.jpg");
+  background-position: center 875px;
+  background-size: 1120px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  * {
+    margin: 0 10px;
+    font-size: 24px;
+  }
+
+  .home__wrapper {
+    img {
+      width: 48px;
+    }
+  }
+
+  .right__wrapper {
+    display: flex;
+    .sound__wrapper {
+      button {
+        border: 1px solid #ffde59;
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+.full-menu__wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffde59;
+  text-align: center;
+  font-size: 36px;
+  transform: translateY(-100vh);
+  transition: all 2s;
+  z-index: 50;
+
+  ul {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .menu--item {
+    height: 100px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+  }
+
+  .menu--item:hover {
+    background-color: #ffea8d;
+  }
+
+  ul li,
+  li a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+.content {
+  min-height: calc(100vh - (100px + 100px));
+  background-image: url("../image/Background.png");
+  background-repeat: repeat;
+  background-position: center center;
+}
+
+@font-face {
+  font-family: KidsCorner;
+  src: url("../font/KidsCorner-Regular-1.otf");
+}
+
+.content__wrapper {
+  font-family: KidsCorner;
+  background-color: #ffea8d;
+}
+
+.footer {
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+
+  .logo-kewan__wrapper {
+    width: 150px;
+  }
+
+  .logo-kewan {
+    width: 100%;
+  }
+}
+
+// media rule
+@mixin screen-xl {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin screen-lg {
+  @media (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin screen-md {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin screen-sm {
+  @media (max-width: 576px) {
+    @content;
+  }
+}
+
+@mixin custom-screen-size($size) {
+  @media (max-width: $size) {
+    @content;
+  }
+}

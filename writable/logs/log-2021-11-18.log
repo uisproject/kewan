@@ -1,0 +1,156 @@
+ERROR - 2021-11-18 07:19:58 --> Unknown column 'sdf' in 'where clause'
+CRITICAL - 2021-11-18 07:19:58 --> Unknown column 'sdf' in 'where clause'
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `sekolah...')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sekolah...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sekolah...')
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `sekolah...', Array, false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Admin.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->loginValidation()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#10 {main}
+CRITICAL - 2021-11-18 07:20:57 --> Undefined index: sekolah_id
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Admin.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Web_Developm...', 26, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->loginValidation()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+ERROR - 2021-11-18 07:21:40 --> Unknown column 'test_sekolah_id' in 'where clause'
+CRITICAL - 2021-11-18 07:21:40 --> Unknown column 'test_sekolah_id' in 'where clause'
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `sekolah...')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sekolah...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sekolah...')
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `sekolah...', Array, false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Admin.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->loginValidation()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#10 {main}
+CRITICAL - 2021-11-18 08:25:06 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Web_Developm...')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#9 {main}
+CRITICAL - 2021-11-18 08:30:09 --> Undefined offset: 0
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Admin.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Web_Developm...', 30, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->loginValidation()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+ERROR - 2021-11-18 08:30:20 --> Unknown column 'dsfa' in 'where clause'
+CRITICAL - 2021-11-18 08:30:20 --> Unknown column 'dsfa' in 'where clause'
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `sekolah...')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sekolah...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sekolah...')
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `sekolah...', Array, false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Admin.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->loginValidation()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#10 {main}
+ERROR - 2021-11-18 08:30:56 --> Unknown column 'dsfa' in 'where clause'
+CRITICAL - 2021-11-18 08:30:56 --> Unknown column 'dsfa' in 'where clause'
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `sekolah...')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sekolah...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sekolah...')
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `sekolah...', Array, false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Admin.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->loginValidation()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#10 {main}
+ERROR - 2021-11-18 08:34:05 --> Unknown column 'gdfg' in 'where clause'
+CRITICAL - 2021-11-18 08:34:05 --> Unknown column 'gdfg' in 'where clause'
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `sekolah...')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sekolah...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sekolah...')
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `sekolah...', Array, false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Admin.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->loginValidation()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#10 {main}
+ERROR - 2021-11-18 08:34:32 --> Unknown column 'dsfa' in 'where clause'
+CRITICAL - 2021-11-18 08:34:32 --> Unknown column 'dsfa' in 'where clause'
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `sekolah...')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sekolah...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sekolah...')
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `sekolah...', Array, false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Admin.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->loginValidation()
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#10 {main}
+ERROR - 2021-11-18 08:35:47 --> Unknown column 'saf' in 'where clause'
+CRITICAL - 2021-11-18 09:46:00 -->  route cannot be found while reverse-routing.
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Common.php(835): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Admin.php(24): redirect('http://localhos...')
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#8 {main}
+CRITICAL - 2021-11-18 13:28:01 --> Undefined index: sekolah_id
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Admin.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Web_Developm...', 36, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->loginValidation()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-11-18 13:28:06 --> Undefined index: pengguna_id
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Admin.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Web_Developm...', 75, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->featureData()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-11-18 13:28:21 --> Undefined index: penggunaId
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Admin.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Web_Developm...', 75, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->featureData()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-11-18 13:28:24 --> Undefined index: sekolah_id
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Admin.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Web_Developm...', 36, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->loginValidation()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}
+CRITICAL - 2021-11-18 13:28:28 --> Undefined index: penggunaId
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Admin.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Web_Developm...', 75, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->featureData()
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#6 {main}

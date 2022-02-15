@@ -1,0 +1,134 @@
+.header {
+  height: 100px;
+  background-image: url("../image/bg.jpg");
+  background-position: center 875px;
+  background-size: 1120px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header * {
+    margin: 0 10px;
+    font-size: 24px; }
+  .header .home__wrapper img {
+    width: 48px; }
+  .header .right__wrapper {
+    display: flex; }
+    .header .right__wrapper .sound__wrapper button {
+      border: 1px solid #ffde59;
+      background-color: #fff; }
+
+.full-menu__wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffde59;
+  text-align: center;
+  font-size: 36px;
+  transform: translateY(-100vh);
+  transition: all 2s;
+  z-index: 50; }
+  .full-menu__wrapper ul {
+    padding: 0 !important;
+    margin: 0 !important; }
+  .full-menu__wrapper .menu--item {
+    height: 100px;
+    display: grid;
+    place-items: center;
+    cursor: pointer; }
+  .full-menu__wrapper .menu--item:hover {
+    background-color: #ffea8d; }
+  .full-menu__wrapper ul li,
+  .full-menu__wrapper li a {
+    list-style: none;
+    text-decoration: none;
+    color: #000; }
+
+.content {
+  min-height: calc(100vh - (100px + 100px));
+  background-image: url("../image/Background.png");
+  background-repeat: repeat;
+  background-position: center center; }
+
+@font-face {
+  font-family: KidsCorner;
+  src: url("../font/KidsCorner-Regular-1.otf"); }
+
+.content__wrapper {
+  font-family: KidsCorner;
+  background-color: #ffea8d; }
+
+.footer {
+  height: 100px;
+  position: absolute;
+  bottom: 0; }
+  .footer .logo-kewan__wrapper {
+    width: 150px; }
+  .footer .logo-kewan {
+    width: 100%; }
+
+.content__wrapper {
+  position: relative; }
+  .content__wrapper .modal-check__wrapper {
+    font-size: 24px; }
+    .content__wrapper .modal-check__wrapper .modal-check {
+      position: absolute;
+      width: 450px;
+      height: 450px;
+      background-color: #fff;
+      border-radius: 20px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -500%); }
+      .content__wrapper .modal-check__wrapper .modal-check .msg-panel {
+        height: 100%;
+        display: grid;
+        place-items: center;
+        padding: 20px; }
+  .content__wrapper .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .content__wrapper .content .image__container {
+      display: flex;
+      justify-content: center; }
+    .content__wrapper .content .image__wrapper {
+      width: 500px;
+      height: 500px;
+      position: relative; }
+      @media (max-width: 768px) {
+        .content__wrapper .content .image__wrapper {
+          width: 300px;
+          height: 300px; } }
+    .content__wrapper .content .image__wrapper img {
+      width: 100%;
+      height: 100%; }
+    .content__wrapper .content .box__wrapper {
+      position: absolute;
+      width: 100%;
+      height: 100%; }
+    .content__wrapper .content .box__wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr; }
+    .content__wrapper .content .question__wrapper {
+      padding: 20px 0; }
+    .content__wrapper .content .box {
+      cursor: pointer; }
+    .content__wrapper .content .hint__wrapper {
+      font-size: 24px;
+      display: flex;
+      justify-content: center;
+      margin: 15px 0; }
+      .content__wrapper .content .hint__wrapper .btn {
+        font-size: 24px !important; }
+    .content__wrapper .content .answer__wrapper {
+      font-size: 24px; }
+      .content__wrapper .content .answer__wrapper .answer {
+        display: flex;
+        justify-content: center; }
+        .content__wrapper .content .answer__wrapper .answer .answer-item {
+          width: 200px;
+          margin: 15px; }

@@ -1,0 +1,38 @@
+@import "template.scss";
+
+.content__wrapper {
+  .content {
+    .logo {
+      display: flex;
+      justify-content: center;
+      padding: 50px 0;
+      width: 100%;
+
+      @include screen-sm {
+        width: 60%;
+        margin: auto;
+      }
+
+      img {
+        max-width: 400px;
+        width: 100%;
+      }
+    }
+
+    .navigation {
+      max-width: 800px;
+      margin: auto;
+
+      .feature {
+        text-align: center;
+        color: #000;
+        text-decoration: none;
+
+        img {
+          box-shadow: -11px 13px 19px 6px rgba(211, 175, 32, 0.75);
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+}

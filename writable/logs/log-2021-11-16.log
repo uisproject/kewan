@@ -1,0 +1,12 @@
+CRITICAL - 2021-11-16 13:14:06 --> Undefined index: suara_hewan
+#0 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Views\koleksi-detail.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Web_Developm...', 77, Array)
+#1 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\Web_Developm...')
+#2 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('koleksi-detail', Array, true)
+#4 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\app\Controllers\Koleksi.php(29): view('koleksi-detail', Array)
+#5 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Koleksi->koleksiDetil('1')
+#6 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#7 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Web_Development\Thesis_project-kewan\main_project\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Web_Developm...')
+#10 {main}

@@ -1,0 +1,17 @@
+.content__wrapper {
+  background-color: #ffea8d;
+  .container {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+
+    .login-table {
+      border-collapse: collapse;
+
+      td {
+        padding-bottom: 20px;
+      }
+    }
+  }
+}
